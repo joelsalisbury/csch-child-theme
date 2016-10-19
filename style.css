@@ -1,0 +1,170 @@
+/*
+ Theme Name:   Sherman Child for CSCH
+ Description:  By DMD Web Design Practicum, F2016.
+ Author:       Tim Morris et. al.
+ Template:     cornerstone
+ Version:      1
+*/
+@import url(../sherman/css/sherman-blue.css);
+
+.site-header { background: #447F97 !important }
+
+.nav .dropdown.open { background-color: #e7e7e7 !important }
+.nav .dropdown.open>a { color: #555 !important }
+.nav .menu-item .glyphicon { display:none !important }
+
+
+#uc-site-parent>a { color:white !important }
+
+.entry-title { 
+    font-family: Arial,Verdana,sans-serif !important;
+    font-weight: bold !important;
+    padding: 50px 0 100px 10px !important;
+    text-transform: uppercase !important;
+    color: #849439 !important;
+    text-align: center !important;
+    display: inline-block !important;    
+    border: none !important;
+    font-size:36px !important;
+}
+
+#page>#footers { background-color: #447F97 !important }
+
+#uc-header,#masthead {
+	position:fixed;
+	width:100%;
+	z-index:99
+}
+
+#footers {
+	background-color:#447f97
+}
+
+#masthead {
+	margin-top:50px
+}
+
+#main {
+	padding-top:220px
+}
+
+#content,#main {
+	background-color:#eaeaea
+}
+
+.entry-title {
+	margin-left:14px
+}
+
+.panel p {
+	line-height:25px
+}
+
+.panel {
+	background-color:#fff;
+	min-height:650px;
+	border-top:5px solid #849439;
+	border-radius:4px
+}
+
+.subpage .widget a {
+	color:#849436
+}
+
+.panel-blue {
+background-color:#fff;
+min-height:600px;
+border-top:5px solid #447F97;
+border-radius:4px
+}
+
+.panel-blue p {
+color:#777676;
+line-height:25px
+}
+
+.panel-blue a {
+	text-decoration:none;
+	color:#849439
+}
+
+.panel-blue h4 {
+    
+}
+
+.panel p {
+	line-height:15px
+}
+
+.panel a {
+	text-decoration:none
+}
+
+.panel h2 {
+	color:#849439
+}
+
+#informed-panel {
+	background-color:#fff;
+	height:300px;
+	border-top:5px solid #849439;
+	border-radius:4px
+}
+
+.round {
+	border-radius:100%;
+	width:200px
+}
+
+.right-border {
+	border-right:2px solid #e6e6e6
+}
+
+.clear {
+	display:inline-block;
+	clear:right
+}
+
+.nivo-caption {
+	color:blue
+}
+
+@media screen and (max-width: 767px) {
+	.entry-title {
+		font-size:24px!important
+  }
+
+  header img {
+		width:160px
+  }
+
+  .panel p {
+		line-height:25px
+  }
+
+  #main {
+		padding-top:136px
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .panel-blue {
+        line-height:20px
+    }
+
+    #main {
+        padding-top:260px
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+    .panel-blue {
+        min-height:650px
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .panel p {
+        line-height:25px
+    }
+}
