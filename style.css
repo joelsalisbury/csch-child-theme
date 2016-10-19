@@ -72,15 +72,15 @@
 }
 
 .panel-blue {
-background-color:#fff;
-min-height:600px;
-border-top:5px solid #447F97;
-border-radius:4px
+	background-color:#fff;
+	min-height:600px;
+	border-top:5px solid #447F97;
+	border-radius:4px
 }
 
 .panel-blue p {
-color:#777676;
-line-height:25px
+	color:#777676;
+	line-height:25px
 }
 
 .panel-blue a {
