@@ -8,7 +8,7 @@ Template Name: Home
  */
 $rows = get_theme_mod('homepagerows', '2');
 $count = 1;
-get_header();
+//get_header();
 ?>
 <div id="page-home">
 	<?php while ( have_posts() ) : the_post(); ?>

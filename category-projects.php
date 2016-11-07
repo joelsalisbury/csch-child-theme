@@ -8,8 +8,8 @@
 						<img src="http://dmd.dev.uconn.edu/csch/wp-content/uploads/sites/3/2016/09/CSCH_200px.png" alt="CSCH">
 						<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 					</header><!-- .entry-header -->
-					<?php while (have_posts()) : the_post(); ?>
-						
+					<?php while ( have_posts() ) : the_post(); ?>
+						<?php get_template_part('content', 'panel'); ?>
 					<?php endwhile; ?>
 				</main>
 			</section>
