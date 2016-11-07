@@ -309,3 +309,21 @@ color:#fff
 		line-height:25px
 	}
 }
+
+
+/* Enter Your Custom CSS Here */
+.gform_wrapper form {
+text-align:center!important
+}
+
+#gform_submit_button_1 {
+backgroundcolor:blue!important
+}
+
+#pl-164 .panel-grid-cell .so-panel {
+margin-bottom:0!important
+}
+
+.gform_wrapper {
+margin-bottom:0!important
+}
